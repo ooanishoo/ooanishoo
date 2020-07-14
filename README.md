@@ -9,7 +9,7 @@ I'm a Software Engineer with a demonstrated history of working in back end and f
 ## Want to create something together ?
 Get in touch! Say Hello :)
 
-<a href="https://www.linkedin.com/in/ooanishoo/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/ooanishoo/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
 
 <!--
 **ooanishoo/ooanishoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
