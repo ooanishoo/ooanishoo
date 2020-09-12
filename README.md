@@ -27,7 +27,6 @@ I'm a Software Engineer with a demonstrated history of working in back end and f
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/java.svg"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/php.svg"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/mysql.svg"></code>
-
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/figma-1.svg"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/sketch-2.svg"></code>
