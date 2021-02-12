@@ -26,9 +26,9 @@ I'm a Software Engineer with a demonstrated history of working in back end and f
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" title="Firebase"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/java.svg" title="Java"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/php.svg" title="Php"></code>
-<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/mysql.svg" title="MySQL"></code>
+<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/mysql-5.svg" title="MySQL"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" title="Material UI"></code>
-<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/figma-1.svg" title="Figma"></code>
+<code><img height="50" src="https://seeklogo.com/images/F/figma-logo-E4E21D3AEA-seeklogo.com.png" title="Figma"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/sketch-2.svg" title="Sketch"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/adobe-xd-1.svg" title="Adobe XD"></code>
 
