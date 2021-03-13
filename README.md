@@ -1,4 +1,4 @@
-### Hi, I'm Anish. Nice to meet you! 👋🏼👨🏻‍💻
+### Hi, I'm Anish. Nice to meet you! <img src="https://raw.githubusercontent.com/ooanishoo/ooanishoo/master/assets/wave.gif" width="30px">
 
 I'm a Software Engineer with a demonstrated history of working in back end and front end technologies. I love to design and write codes. I'm passionate about building useable products that solve real customer problems. 
 
@@ -7,9 +7,9 @@ I'm a Software Engineer with a demonstrated history of working in back end and f
 
 ## Stack I love to work with
 
-<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/javascript.svg" title="Javascript"></code>
+<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" title="Javascript"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/typescript.svg" title="Typescript"></code>
-<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/react.svg" title="React"></code>
+<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/react-2.svg" title="React"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" title="Vue"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/redux.svg" title="Redux"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" title="NextJs"></code>
