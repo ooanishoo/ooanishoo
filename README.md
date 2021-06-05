@@ -14,7 +14,7 @@ I'm a Software Engineer with a demonstrated history of working in back end and f
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/redux.svg" title="Redux"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" title="NextJs"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/storybook-1.svg" title="Storybook"></code>
-<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/jest-0.svg" title="Jest"></code>
+<code><img height="50" src="https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png" title="Jest"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/html5.svg" title="Html5"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/css3.svg" title="Css3"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/flutter.svg" title="Flutter"></code>
@@ -26,7 +26,7 @@ I'm a Software Engineer with a demonstrated history of working in back end and f
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" title="Firebase"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/java.svg" title="Java"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/php.svg" title="Php"></code>
-<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/mysql-5.svg" title="MySQL"></code>
+<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" title="MySQL"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" title="Material UI"></code>
 <code><img height="50" src="https://seeklogo.com/images/F/figma-logo-E4E21D3AEA-seeklogo.com.png" title="Figma"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/sketch-2.svg" title="Sketch"></code>
