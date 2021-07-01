@@ -16,7 +16,7 @@ I'm a Software Engineer based in Melbourne with a demonstrated history of workin
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/storybook-1.svg" title="Storybook"></code>
 <code><img height="50" src="https://seeklogo.com/images/J/jest-logo-F9901EBBF7-seeklogo.com.png" title="Jest"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/html5.svg" title="Html5"></code>
-<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/css3.svg" title="Css3"></code>
+<code><img height="50" src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" title="tailwindcss"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/flutter.svg" title="Flutter"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/dart.svg" title="Dart"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/mongodb.svg" title="MongoDB"></code>
