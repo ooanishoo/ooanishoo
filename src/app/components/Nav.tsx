@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import ToogleThemeButton from './ToggleThemeButton'
 import { useTheme } from 'next-themes'
+import { useEffect, useState } from 'react'
 
 interface INavigation {
   title: string
@@ -29,15 +30,17 @@ const NAVIGATIONS: INavigation[] = [
 
 export const Nav = () => {
   const { theme } = useTheme()
+  const [logo, setLogo] = useState('/logo-black.png')
+
+  useEffect(
+    () => setLogo(theme === 'light' ? '/logo-black.png' : '/logo-white.png'),
+    [theme]
+  )
+
   return (
     <nav className="flex flex-row justify-between items-center pt-6 gap-6">
       <Link href={'/'}>
-        <Image
-          src={theme === 'light' ? '/logo-black.png' : '/logo-white.png'}
-          alt="me"
-          width="64"
-          height="64"
-        />
+        <Image src={logo} alt="me" width="64" height="64" />
       </Link>
 
       <ul className="flex justify-end flex-auto  gap-12 px-6 items-center c">
