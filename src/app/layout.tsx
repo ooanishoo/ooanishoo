@@ -1,8 +1,9 @@
 import { Nav } from './components/Nav'
 import './globals.css'
-import { Inter, Roboto_Mono } from 'next/font/google'
+import { Roboto_Mono } from 'next/font/google'
+import Providers from './components/Providers'
 
-const inter = Roboto_Mono({ subsets: ['latin'] })
+const roboto_mono = Roboto_Mono({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Anish Maharjan',
@@ -15,14 +16,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark" suppressHydrationWarning={true}>
       <body
-        className={`mx-auto overflow-x-hidden px-24 max-w-[1920px] ${inter.className}`}
+        className={`mx-auto overflow-x-hidden px-24 max-w-[1920px]  ${roboto_mono.className}`}
       >
-        <header>
-          <Nav />
-        </header>
-        <main className="mt-12">{children}</main>
+        <Providers>
+          <header>
+            <Nav />
+          </header>
+          <main className="mt-12">{children}</main>
+        </Providers>
       </body>
     </html>
   )
