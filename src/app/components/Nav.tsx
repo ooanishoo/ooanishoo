@@ -1,5 +1,7 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
+import ToogleThemeButton from './ToggleThemeButton'
 
 interface INavigation {
   title: string
@@ -25,7 +27,7 @@ const NAVIGATIONS: INavigation[] = [
 ]
 
 export const Nav = () => (
-  <nav className="flex flex-row justify-between items-center pt-6">
+  <nav className="flex flex-row justify-between items-center pt-6 gap-6">
     <Link href={'/'}>
       <Image src="/ooanishoo.png" alt="me" width="64" height="64" />
     </Link>
@@ -37,6 +39,6 @@ export const Nav = () => (
         </li>
       ))}
     </ul>
-    <div className="px-4">Dark mode</div>
+    <ToogleThemeButton />
   </nav>
 )

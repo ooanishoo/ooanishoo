@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -10,7 +11,7 @@ export default function Home() {
           alt="Picture of Anish Maharjan"
           width={500}
           height={500}
-          className="rounded-3xl min-w-[300px] min-h-[300px] shadow-2xl"
+          className="rounded-3xl min-w-[300px] min-h-[300px] shadow-2xl hover:-translate-y-1 hover:scale-110 duration-700"
         />
       </div>
       <div className="flex-auto">
