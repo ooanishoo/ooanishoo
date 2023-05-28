@@ -1,6 +1,6 @@
+import { Nav } from './components/Nav'
 import './globals.css'
 import { Inter, Roboto_Mono } from 'next/font/google'
-import { Nav } from './page'
 
 const inter = Roboto_Mono({ subsets: ['latin'] })
 
