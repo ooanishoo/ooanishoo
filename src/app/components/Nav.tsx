@@ -43,7 +43,7 @@ export const Nav = () => {
         <Image src={logo} alt="me" width="64" height="64" />
       </Link>
 
-      <ul className="flex justify-end flex-auto  gap-12 px-6 items-center c">
+      <ul className="flex justify-end flex-auto  gap-12 px-6 items-center text-lg">
         {NAVIGATIONS.map((nav, _index) => (
           <li key={_index}>
             <Link href={nav.link}>{nav.title}</Link>
