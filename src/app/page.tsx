@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <div className="flex-auto">
         <h2 className="text-4xl pt-2">{`Hi, I'm Anish. Nice to meet you!`}</h2>
-        <p className="text-2xl text-gray-400 dark:text-slate-500 mt-12">
+        <p className="text-2xl text-gray-800 dark:text-slate-200 mt-12">
           {`I'm a Software Engineer based in Melbourne. I love to design and write clean codes. I'm passionate about building useable products that solve real customer problems.`}
         </p>
         <div className="font-medium text-xl mt-12 py-2 hover:animate-pulse">

@@ -45,7 +45,10 @@ export const Nav = () => {
 
       <ul className="flex justify-end flex-auto  gap-12 px-6 items-center text-lg">
         {NAVIGATIONS.map((nav, _index) => (
-          <li key={_index}>
+          <li
+            key={_index}
+            className="hover:underline transition ease-in-out delay-550 hover:scale-110 duration-500"
+          >
             <Link href={nav.link}>{nav.title}</Link>
           </li>
         ))}
