@@ -22,7 +22,11 @@ const ToggleThemeButton = () => {
       onClick={handleOnClick}
       className="transition ease-in-out delay-350  hover:-translate-y-1 hover:scale-110 duration-500 active:animate-ping"
     >
-      {theme === 'light' ? <SunIcon /> : <MoonIcon />}
+      {theme === 'light' ? (
+        <SunIcon className="hover:animate-spin" />
+      ) : (
+        <MoonIcon className="hover:animate-spin" />
+      )}
     </button>
   )
 }
