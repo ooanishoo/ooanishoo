@@ -1,6 +1,6 @@
 ### Hi, I'm Anish. Nice to meet you! <img src="https://raw.githubusercontent.com/ooanishoo/ooanishoo/main/public/wave.gif" width="30px">
 
-I'm a Software Engineer based in Melbourne with a demonstrated history of working in back end and front end technologies. I love to design and write clean codes. I'm passionate about building useable products that solve real customer problems.
+I'm a Software Engineer based in Melbourne with a demonstrated history of working in backend and frontend technologies. I love to design and write clean codes. I'm passionate about building useable products that solve real customer problems.
 
 _"A great design should always put user experience first and the rest will follow."_
 
@@ -29,7 +29,7 @@ _"A great design should always put user experience first and the rest will follo
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/sketch-2.svg" title="Sketch"></code>
 <code><img height="50" src="https://cdn.worldvectorlogo.com/logos/adobe-xd-1.svg" title="Adobe XD"></code>
 
-## Want to create something together ?
+## Want to create something together?
 
 Get in touch! Say Hello :)
 

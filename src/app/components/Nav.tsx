@@ -20,7 +20,7 @@ const NAVIGATIONS: INavigation[] = [
   },
   {
     title: 'Toolbox',
-    link: '/toolbox',
+    link: '/uses',
   },
   {
     title: 'Contact',

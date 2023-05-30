@@ -1,5 +1,6 @@
 {
   "editor.formatOnSave": true,
   "prettier.configPath": ".prettierrc.json",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "grammarly.files.include": ["**/*.md"]
 }
