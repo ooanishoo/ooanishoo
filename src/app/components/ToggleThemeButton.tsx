@@ -7,13 +7,7 @@ const ToggleThemeButton = () => {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => setMounted(true), [])
-  if (!mounted)
-    return (
-      <span className="relative flex h-8 w-8">
-        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-slate-400 opacity-75"></span>
-        <span className="relative inline-flex rounded-full h-8 w-8 bg-slate-300"></span>
-      </span>
-    )
+  if (!mounted) return <SunIcon className="animate-spin" />
 
   const handleOnClick = () => setTheme(theme === 'dark' ? 'light' : 'dark')
 
