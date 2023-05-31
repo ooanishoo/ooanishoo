@@ -38,6 +38,7 @@ These are some of the desktop apps and Chrome extensions that I use daily.
 - Calendy
 - React Developer Tools
 - GitHub Desktop
+- VisBug
 
 ## Podcasts and books
 
