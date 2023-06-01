@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning={true}>
       <body
-        className={`mx-auto overflow-x-hidden px-24 max-w-[1920px]  ${roboto_mono.className}`}
+        className={`mx-auto max-w-3xl overflow-x-hidden px-8 md:px-24 xl:max-w-[1920px]  ${roboto_mono.className} dark:bg-slate-950 dark:text-slate-300`}
       >
         <Providers>
           <header>
