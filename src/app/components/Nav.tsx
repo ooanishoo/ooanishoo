@@ -76,11 +76,13 @@ export const Nav = () => {
               key={_index}
               className="block py-2 hover:text-sky-500  dark:hover:text-sky-400 md:p-4"
             >
-              <Link href={nav.link}>{nav.title}</Link>
+              <Link href={nav.link} onClick={handleOnClick}>
+                {nav.title}
+              </Link>
             </li>
           ))}
         </ul>
-        <div className=" ml-6 hidden border-l border-solid border-slate-200 pl-6 dark:border-slate-800 md:block">
+        <div className=" ml-6 hidden border-l border-solid border-slate-400 pl-6 dark:border-slate-600 md:block ">
           <ToogleThemeButton />
         </div>
       </div>
