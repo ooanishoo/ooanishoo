@@ -18,13 +18,15 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning={true}>
       <body
-        className={`mx-auto max-w-3xl overflow-x-hidden px-8 md:px-24 xl:max-w-[1920px]  ${roboto_mono.className} dark:bg-slate-950 dark:text-slate-300`}
+        className={`overflow-x-hidden ${roboto_mono.className} mx-auto text-slate-500 lg:container dark:text-slate-400`}
       >
         <Providers>
-          <header>
+          <header className="w-full text-sm font-semibold">
             <Nav />
           </header>
-          <main className="mt-12">{children}</main>
+          <main className="mx-auto mt-12 px-4 lg:container sm:px-6 lg:px-8">
+            {children}
+          </main>
         </Providers>
       </body>
     </html>

@@ -17,7 +17,7 @@ const ToggleThemeButton = () => {
       onClick={handleOnClick}
       title={label}
       aria-label={label}
-      className="transition ease-in-out delay-350  hover:-translate-y-1 hover:scale-110 duration-500 active:animate-ping"
+      className="delay-350 transition duration-500  ease-in-out  hover:text-sky-500 active:animate-ping   dark:hover:text-sky-400"
     >
       {theme === 'light' ? (
         <SunIcon className="hover:animate-spin" />
