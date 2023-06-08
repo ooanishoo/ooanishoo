@@ -9,7 +9,7 @@ export default function Home() {
       <Image
         src={profilePic}
         alt="Picture of Anish Maharjan"
-        className="w-full max-w-2xl rounded-3xl shadow-2xl duration-700 md:max-w-sm lg:max-w-lg"
+        className="w-full max-w-2xl rounded-3xl shadow-lg duration-700 md:max-w-sm lg:max-w-lg"
       />
       <div className="flex-auto">
         <h2 className="pt-2 text-4xl font-extrabold text-black dark:text-white">{`Hi, I'm Anish. Nice to meet you!`}</h2>
