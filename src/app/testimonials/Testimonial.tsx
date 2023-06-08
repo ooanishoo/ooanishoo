@@ -14,7 +14,7 @@ const Testimonial = ({ testimonial }: TestimonialProps) => {
   } = testimonial
 
   return (
-    <figure className="dark:highlight-white/5 relative flex flex-col rounded-lg bg-slate-100 p-6 dark:bg-slate-800">
+    <figure className="dark:highlight-white/5 relative flex flex-col rounded-lg bg-slate-100 p-4 dark:bg-slate-800">
       <figcaption className="flex items-center space-x-4">
         <Image
           src={avatar}
