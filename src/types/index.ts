@@ -1,9 +1,11 @@
 type Status = 'VISIBLE' | 'HIDDEN' | 'PENDING'
+type Relationship = 'COLLEAGUE' | 'MENTEE'
 export interface ITestimonial {
   author: IAuthor
   feedback: string
-  date: string
+  date?: string
   status?: Status
+  relationship: Relationship
 }
 
 interface IAuthor {
