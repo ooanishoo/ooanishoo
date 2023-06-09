@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="mt-2 flex flex-col items-center gap-4 sm:items-start sm:gap-6 md:flex-row lg:gap-8 ">
+    <div className="flex flex-col items-center gap-4 sm:items-start sm:gap-6 md:flex-row lg:gap-8 ">
       <Image
         src={profilePic}
         alt="Picture of Anish Maharjan"

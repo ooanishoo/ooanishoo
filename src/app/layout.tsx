@@ -24,7 +24,7 @@ export default function RootLayout({
           <header className="w-full text-sm font-semibold">
             <Nav />
           </header>
-          <main className="mx-auto mt-6 min-h-[60vh] px-4 lg:container sm:mt-8 sm:px-6 lg:mt-12 lg:px-8">
+          <main className="mx-auto mt-6 min-h-[60vh] px-4 lg:container sm:mt-8 sm:px-6 lg:mt-12 lg:px-8 xl:pt-14">
             {children}
           </main>
           <footer className="mt-16 px-4 text-sm sm:px-6 lg:px-8">

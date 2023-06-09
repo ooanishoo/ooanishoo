@@ -1,6 +1,6 @@
 # What are my weapons?
 
-I love sharing the tools and resources that I use daily. I'm a big fan of [Wes Bos](https://wesbos.com/)'s [uses.tech](https://uses.tech/) page. I've been inspired by his page to create my own. I'll try to keep this page updated as much as possible.
+I love discovering new tools and resources that can power my productivity. Here's a peek into the tools and technologies that I use and recommend. If you know a pro tip, I'm all ears!
 
 ## Tech
 
@@ -39,6 +39,7 @@ These are some of the desktop apps and Chrome extensions that I use daily.
 - React Developer Tools
 - GitHub Desktop
 - VisBug
+- ChatGPT
 
 ## Podcasts and books
 
