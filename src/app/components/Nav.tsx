@@ -49,7 +49,7 @@ const Menu = () => (
 )
 
 export const Nav = () => {
-  const { theme } = useTheme()
+  const { theme, setTheme } = useTheme()
   const [logo, setLogo] = useState(blackLogo)
   const [isNavHidden, setIsNavHidden] = useState(true)
 
@@ -70,7 +70,10 @@ export const Nav = () => {
           isNavHidden ? 'hidden' : ''
         }`}
       >
-        <ul className="pt-4 md:flex md:justify-between  md:pt-0">
+        <ul className="pt-4 text-center  md:flex md:justify-between md:pt-0">
+          <li className="block py-2 hover:text-sky-500 dark:hover:text-sky-400  md:hidden md:p-4">
+            Home
+          </li>
           {NAVIGATIONS.map((nav, _index) => (
             <li
               key={_index}
@@ -81,6 +84,16 @@ export const Nav = () => {
               </Link>
             </li>
           ))}
+          <li className="block py-2 hover:text-sky-500 dark:hover:text-sky-400  md:hidden md:p-4">
+            <button
+              onClick={() => {
+                setTheme(theme === 'dark' ? 'light' : 'dark')
+                setIsNavHidden(!isNavHidden)
+              }}
+            >
+              {`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+            </button>
+          </li>
         </ul>
         <div className=" ml-6 hidden border-l border-solid border-slate-400 pl-6 dark:border-slate-600 md:block ">
           <ToogleThemeButton />
