@@ -4,8 +4,7 @@ import Link from 'next/link'
 import ToogleThemeButton from './ToggleThemeButton'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
-import blackLogo from '../../../public/logo-black.png'
-import whiteLogo from '../../../public/logo-white.png'
+import { LogoIcon } from './CustomIcons'
 
 interface INavigation {
   title: string
@@ -50,17 +49,14 @@ const Menu = () => (
 
 export const Nav = () => {
   const { theme, setTheme } = useTheme()
-  const [logo, setLogo] = useState(blackLogo)
   const [isNavHidden, setIsNavHidden] = useState(true)
-
-  useEffect(() => setLogo(theme === 'light' ? blackLogo : whiteLogo), [theme])
 
   const handleOnClick = () => setIsNavHidden(!isNavHidden)
 
   return (
     <nav className="flex flex-wrap items-center justify-between gap-6 px-4 pt-6 text-slate-700 dark:text-slate-200 sm:px-6 lg:px-8">
       <Link href={'/'}>
-        <Image src={logo} alt="me" className="w-12 sm:w-14" />
+        <LogoIcon className="w-8 text-black dark:text-white sm:w-10" />
       </Link>
       <button onClick={handleOnClick}>
         <Menu />
