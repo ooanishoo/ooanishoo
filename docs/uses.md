@@ -18,7 +18,7 @@ I love discovering new tools and resources that can power my productivity. Here'
 
 If you are spending long hours looking at your editor, might as well have a good setup
 
-- [Visual Studio Code](https://code.visualstudio.com/): I switched to VSCode back in 2017 and has never looked back since then.
+- [Visual Studio Code](https://code.visualstudio.com/): I switched to VSCode back in 2017 and have never looked back since then.
 - [Night Owl editor theme](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl): I love this theme by [**sarah.drasner**](https://marketplace.visualstudio.com/publishers/sdras)**.** This has been my default theme for a while now.
 - [Dank Mono font](https://philpl.gumroad.com/l/dank-mono): The coding typeface for aesthetes.
 

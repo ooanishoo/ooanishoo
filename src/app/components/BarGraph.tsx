@@ -23,17 +23,17 @@ const data: BarGraph[] = [
   {
     color: '#9ecae1',
     name: 'Mentoring',
-    value: 60,
+    value: 50,
   },
   {
     color: '#deebf7',
     name: 'Lifting',
-    value: 40,
+    value: 30,
   },
   {
     color: '#3182bd',
     name: 'Guitar',
-    value: 50,
+    value: 40,
   },
   {
     color: '#9ecae1',
@@ -42,8 +42,8 @@ const data: BarGraph[] = [
   },
   {
     color: '#deebf7',
-    name: 'Renovation/DIY',
-    value: 30,
+    name: 'Renovations/DIY',
+    value: 50,
   },
 ]
 
@@ -51,8 +51,8 @@ export const BarGraph = () => {
   return (
     <ResponsiveContainer
       width="99%"
-      height={600}
-      className="mt-12 dark:text-white"
+      height={400}
+      className="mt-6 dark:text-white"
     >
       <BarChart
         data={data}
@@ -61,13 +61,13 @@ export const BarGraph = () => {
         desc="A bart chart showcasing how Anish spends his time."
         margin={{
           top: 0,
-          right: -21,
+          right: 0,
           bottom: 0,
-          left: -21,
+          left: 0,
         }}
         role="graphics-document"
       >
-        <CartesianGrid strokeDasharray="5 5" />
+        <CartesianGrid strokeDasharray="5 5" className="hidden sm:block" />
         <Bar
           dataKey="value"
           animationEasing="ease-in-out"
@@ -80,6 +80,8 @@ export const BarGraph = () => {
             position="middle"
             angle={270}
             fill="black"
+            fontSize={14}
+            fontWeight={'bold'}
           />
           {data.map((entry, index) => (
             <Cell key={index} fill={entry.color} fillOpacity={'0.90'} />

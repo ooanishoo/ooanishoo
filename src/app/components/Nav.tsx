@@ -68,7 +68,9 @@ export const Nav = () => {
       >
         <ul className="pt-4 text-center  md:flex md:justify-between md:pt-0">
           <li className="block py-2 hover:text-sky-500 dark:hover:text-sky-400  md:hidden md:p-4">
-            Home
+            <Link href={'/'} onClick={handleOnClick}>
+              Home
+            </Link>
           </li>
           {NAVIGATIONS.map((nav, _index) => (
             <li

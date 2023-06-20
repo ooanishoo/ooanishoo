@@ -18,8 +18,8 @@ export default function Testimonials() {
           <ul
             key={i}
             className={`space-y-8 
-          ${i === 1 && 'hidden sm:block'}
-          ${i === 2 && 'hidden lg:block'}`}
+            ${i === 1 && 'hidden sm:block'}
+            ${i === 2 && 'hidden lg:block'}`}
           >
             {column.map((testimonial, index) => (
               <li key={index} className="text-sm leading-6">
