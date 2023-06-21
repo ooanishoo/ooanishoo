@@ -60,7 +60,7 @@ export const Nav = () => {
   const pathname = usePathname()
 
   return (
-    <nav className="flex flex-wrap items-center justify-between gap-6 px-4 pt-6 text-slate-700 dark:text-slate-200 sm:px-6 lg:px-8">
+    <nav className="flex flex-wrap items-center justify-between gap-6 px-4 pt-6 text-slate-700 dark:text-slate-200 sm:px-6 lg:px-8 lg:text-lg">
       <Link href={'/'}>
         <LogoIcon className="w-8 text-black dark:text-white sm:w-10" />
       </Link>
