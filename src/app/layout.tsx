@@ -1,9 +1,9 @@
 import { Nav } from './components/Nav'
 import './globals.css'
-import { Roboto_Mono } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import Providers from './components/Providers'
 
-const roboto_mono = Roboto_Mono({ subsets: ['latin'] })
+const poppins = Poppins({ subsets: ['latin'], weight: '300' })
 
 export const metadata = {
   title: 'Anish Maharjan',
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning={true}>
       <body
-        className={`overflow-x-hidden ${roboto_mono.className} mx-auto text-slate-500 lg:container dark:text-slate-400`}
+        className={`overflow-x-hidden ${poppins.className} mx-auto text-slate-500 lg:container dark:bg-gray-950 dark:text-slate-400`}
       >
         <Providers>
           <header className="w-full text-sm font-semibold">

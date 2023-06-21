@@ -10,7 +10,7 @@ const ToggleThemeButton = () => {
   if (!mounted) return <SunIcon className="animate-spin" />
 
   const handleOnClick = () => setTheme(theme === 'dark' ? 'light' : 'dark')
-  const label = `Activate ${theme === 'light' ? 'dark' : 'light'} mode`
+  const label = `Switch to ${theme === 'light' ? 'dark' : 'light'} mode`
 
   return (
     <button
