@@ -5,6 +5,7 @@ import ToogleThemeButton from './ToggleThemeButton'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { LogoIcon } from './CustomIcons'
+import { usePathname } from 'next/navigation'
 
 interface INavigation {
   title: string
@@ -12,19 +13,23 @@ interface INavigation {
 }
 const NAVIGATIONS: INavigation[] = [
   {
-    title: 'About',
+    title: 'home',
+    link: '/',
+  },
+  {
+    title: 'about',
     link: '/about',
   },
   {
-    title: 'Testimonials',
+    title: 'testimonials',
     link: '/testimonials',
   },
   {
-    title: 'Toolbox',
+    title: 'toolbox',
     link: '/uses',
   },
   {
-    title: 'Contact',
+    title: 'contact',
     link: '/contact',
   },
 ]
@@ -52,6 +57,7 @@ export const Nav = () => {
   const [isNavHidden, setIsNavHidden] = useState(true)
 
   const handleOnClick = () => setIsNavHidden(!isNavHidden)
+  const pathname = usePathname()
 
   return (
     <nav className="flex flex-wrap items-center justify-between gap-6 px-4 pt-6 text-slate-700 dark:text-slate-200 sm:px-6 lg:px-8">
@@ -67,19 +73,26 @@ export const Nav = () => {
         }`}
       >
         <ul className="pt-4 text-center  md:flex md:justify-between md:pt-0">
-          <li className="block py-2 hover:text-sky-500 dark:hover:text-sky-400  md:hidden md:p-4">
-            <Link href={'/'} onClick={handleOnClick}>
-              Home
-            </Link>
-          </li>
           {NAVIGATIONS.map((nav, _index) => (
             <li
               key={_index}
-              className="block py-2 hover:text-sky-500  dark:hover:text-sky-400 md:p-4"
+              className={`
+              group
+              block py-2
+              transition duration-300  md:p-4 ${
+                pathname === nav.link && 'text-sky-500'
+              }
+              ${nav.link === '/' && 'md:hidden'}
+              `}
             >
               <Link href={nav.link} onClick={handleOnClick}>
                 {nav.title}
               </Link>
+              <span
+                className={`block h-0.5 max-w-0 bg-sky-600 transition-all duration-500  group-hover:max-w-[40px] ${
+                  pathname === nav.link && 'bg-white dark:bg-gray-950'
+                }`}
+              />
             </li>
           ))}
           <li className="block py-2 hover:text-sky-500 dark:hover:text-sky-400  md:hidden md:p-4">
