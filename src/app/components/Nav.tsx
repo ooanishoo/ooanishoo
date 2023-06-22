@@ -1,11 +1,12 @@
 'use client'
-import Image from 'next/image'
 import Link from 'next/link'
 import ToogleThemeButton from './ToggleThemeButton'
 import { useTheme } from 'next-themes'
-import { useEffect, useState } from 'react'
-import { LogoIcon } from './CustomIcons'
+import { useState } from 'react'
+import { LogoIcon } from './LogoIcon'
 import { usePathname } from 'next/navigation'
+import { BiMenuAltRight } from 'react-icons/bi'
+import { RxCross2 } from 'react-icons/rx'
 
 interface INavigation {
   title: string
@@ -34,24 +35,6 @@ const NAVIGATIONS: INavigation[] = [
   },
 ]
 
-const Menu = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    id="menu-button"
-    className="block h-6 w-6 cursor-pointer md:hidden"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-      d="M4 6h16M4 12h16M4 18h16"
-    />
-  </svg>
-)
-
 export const Nav = () => {
   const { theme, setTheme } = useTheme()
   const [isNavHidden, setIsNavHidden] = useState(true)
@@ -64,8 +47,11 @@ export const Nav = () => {
       <Link href={'/'}>
         <LogoIcon className="w-8 text-black dark:text-white sm:w-10" />
       </Link>
-      <button onClick={handleOnClick}>
-        <Menu />
+      <button
+        onClick={handleOnClick}
+        className="duration-900 block h-6 w-6 cursor-pointer transition md:hidden"
+      >
+        {isNavHidden ? <BiMenuAltRight size={32} /> : <RxCross2 size={32} />}
       </button>
       <div
         className={`w-full md:flex md:w-auto md:items-center ${
@@ -89,7 +75,7 @@ export const Nav = () => {
                 {nav.title}
               </Link>
               <span
-                className={`block h-0.5 max-w-0 bg-sky-600 transition-all duration-500  group-hover:max-w-[40px] ${
+                className={`h-0.5 max-w-0 bg-sky-600 transition-all duration-500 group-hover:max-w-[40px]  md:block ${
                   pathname === nav.link && 'bg-white dark:bg-gray-950'
                 }`}
               />
@@ -99,7 +85,6 @@ export const Nav = () => {
             <button
               onClick={() => {
                 setTheme(theme === 'dark' ? 'light' : 'dark')
-                setIsNavHidden(!isNavHidden)
               }}
             >
               {`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
