@@ -11,29 +11,6 @@ interface SocialLink {
   icon: IconType
 }
 
-const socialLinks: SocialLink[] = [
-  {
-    name: 'Github',
-    url: 'https://github.com/ooanishoo',
-    icon: FaGithub,
-  },
-  {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/ooanishoo/',
-    icon: FaLinkedinIn,
-  },
-  {
-    name: 'Polywork',
-    url: 'https://www.polywork.com/ooanishoo',
-    icon: SiPolywork,
-  },
-  {
-    name: 'Twitter',
-    url: 'https://www.twitter.com/ooanishoo/',
-    icon: FaTwitter,
-  },
-]
-
 export const Footer = () => {
   return (
     <footer className="mt-16 px-4 text-sm sm:px-6 lg:px-8">
@@ -54,8 +31,31 @@ const FooterContent = () => (
   </div>
 )
 
-const renderSocialLinks = () =>
-  socialLinks.map((socialLink, index) => (
+export const renderSocialLinks = () => {
+  const socialLinks: SocialLink[] = [
+    {
+      name: 'Github',
+      url: 'https://github.com/ooanishoo',
+      icon: FaGithub,
+    },
+    {
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/ooanishoo/',
+      icon: FaLinkedinIn,
+    },
+    {
+      name: 'Polywork',
+      url: 'https://www.polywork.com/ooanishoo',
+      icon: SiPolywork,
+    },
+    {
+      name: 'Twitter',
+      url: 'https://www.twitter.com/ooanishoo/',
+      icon: FaTwitter,
+    },
+  ]
+
+  return socialLinks.map((socialLink, index) => (
     <a href={socialLink.url} target="_blank" key={index}>
       <socialLink.icon
         title={socialLink.name}
@@ -64,3 +64,4 @@ const renderSocialLinks = () =>
       />
     </a>
   ))
+}
