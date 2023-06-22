@@ -81,7 +81,6 @@ export const BarGraph = () => {
             angle={270}
             fill="black"
             fontSize={14}
-            fontWeight={'bold'}
           />
           {data.map((entry, index) => (
             <Cell key={index} fill={entry.color} fillOpacity={'0.90'} />

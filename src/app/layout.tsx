@@ -1,9 +1,10 @@
 import { Nav } from './components/Nav'
 import './globals.css'
-import { Poppins } from 'next/font/google'
+import { Poppins, Inter } from 'next/font/google'
 import Providers from './components/Providers'
 
 const poppins = Poppins({ subsets: ['latin'], weight: '300' })
+const inter = Inter({ subsets: ['latin'], weight: '300' })
 
 export const metadata = {
   title: 'Anish Maharjan',
@@ -18,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning={true}>
       <body
-        className={`overflow-x-hidden ${poppins.className} mx-auto text-slate-500 lg:container dark:bg-gray-950 dark:text-slate-400`}
+        className={`tracking-wider ${poppins.className} mx-auto  text-slate-500 lg:container dark:bg-gray-950 dark:text-slate-400 `}
       >
         <Providers>
           <header className="w-full text-sm font-semibold">
