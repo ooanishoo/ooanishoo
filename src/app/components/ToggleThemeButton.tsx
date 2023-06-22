@@ -2,7 +2,11 @@ import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { LuMoonStar, LuSun } from 'react-icons/lu'
 
-const ToggleThemeButton = () => {
+interface ToggleThemeButtonProps {
+  size?: number
+}
+
+const ToggleThemeButton = ({ size = 24 }: ToggleThemeButtonProps) => {
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
@@ -18,9 +22,9 @@ const ToggleThemeButton = () => {
       onClick={handleOnClick}
       title={label}
       aria-label={label}
-      className="delay-350 text-slate-400 transition  duration-500  ease-in-out hover:animate-spin   hover:text-sky-500 active:animate-ping dark:text-slate-600 dark:hover:text-sky-400"
+      className="delay-350 text-slate-400 transition  duration-500  ease-in-out    hover:text-sky-500  dark:text-slate-600 dark:hover:text-sky-400"
     >
-      {theme === 'light' ? <LuSun size={24} /> : <LuMoonStar size={24} />}
+      {theme === 'light' ? <LuSun size={size} /> : <LuMoonStar size={size} />}
     </button>
   )
 }
