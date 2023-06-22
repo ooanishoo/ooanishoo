@@ -23,7 +23,7 @@ export default function About() {
           </a>
         </p>
         <p className="mb-8 mt-6 text-sm text-gray-800 dark:text-slate-400 sm:text-lg sm:leading-normal md:leading-normal lg:leading-normal xl:leading-normal">
-          {`As a kid, I always wanted to be an artist. I just could not wait for the art classes to start when I was in school. I used to spend my weekends sketching, painting, and drawing portraits. After my beloved art teacher passed away, my mom suggested I should learn to play an instrument from my cousin who was a musician/songwriter. I picked up a guitar and started learning music. Later, during my early 20s, I played around local pubs and venues with my band as a guitarist.`}
+          {`As a kid, I always wanted to be an artist. I just could not wait for the art classes to start when I was in school. I used to spend my weekends sketching, painting, and drawing portraits. After my art teacher passed away, I wanted to try something new. I picked up a guitar and started learning music. Later, during my early 20s, I played around local pubs and venues with my band as a guitarist.`}
         </p>
         <p className="mb-8 mt-6 text-sm text-gray-800 dark:text-slate-400 sm:text-lg sm:leading-normal md:leading-normal lg:leading-normal xl:leading-normal">
           {`
