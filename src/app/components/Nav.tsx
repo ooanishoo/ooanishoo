@@ -82,10 +82,7 @@ export const Nav = () => {
                   nav.link === '/' && 'md:hidden'
                 )}
               >
-                <Link
-                  href={nav.link}
-                  // onClick={handleOnClick}
-                >
+                <Link href={nav.link} onClick={handleOnClick}>
                   {nav.title}
                 </Link>
                 <span
