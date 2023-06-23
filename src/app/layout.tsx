@@ -20,13 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning={true}>
       <body
-        className={`tracking-wider ${poppins.className} mx-auto  text-slate-500 lg:container dark:bg-gray-950 dark:text-slate-400 `}
+        className={`tracking-wider ${poppins.className} mx-auto  text-slate-500 lg:container dark:bg-gray-950 dark:text-slate-400`}
       >
         <Providers>
-          <header className="w-full text-sm font-semibold">
+          <header>
             <Nav />
           </header>
-          <main className="mx-auto mt-6 min-h-[60vh] px-4 lg:container sm:mt-8 sm:px-6 lg:mt-12 lg:px-8 xl:pt-14">
+          <main className="mx-auto mt-24 min-h-[60vh] px-4 lg:container sm:mt-28 sm:px-6  lg:mt-32 lg:px-8 xl:pt-14">
             {children}
           </main>
           <Footer />
