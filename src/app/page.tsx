@@ -1,10 +1,11 @@
 'use client'
 import Image from 'next/image'
+import Link from 'next/link'
+import ReactTypingEffect from 'react-typing-effect'
 import profilePic from '../../public/anish.jpg'
 import deskPic from '../../public/desk.jpeg'
-import Link from 'next/link'
 import { BarGraph } from './components/BarGraph'
-import ReactTypingEffect from 'react-typing-effect'
+import Testimonials from './testimonials/page'
 
 export default function Home() {
   return (
@@ -66,6 +67,22 @@ export default function Home() {
           alt="Anish's desk setup"
           className="w-full max-w-6xl rounded-3xl shadow-lg duration-700 xl:max-w-3xl"
         />
+      </div>
+      <div>
+        <h2 className="mb-10 pt-2 text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:text-4xl">
+          Hear what people say about me
+        </h2>
+        <p className="mb-8 mt-4 text-sm text-gray-500  dark:text-slate-500 sm:text-lg sm:leading-8 md:leading-9  lg:text-2xl  lg:leading-10 xl:text-3xl xl:leading-normal">
+          {` I've been fortunate to work with so many talented engineers, designers and product managers. See what they say about working with me`}
+        </p>
+        <section className="relative h-[600px] overflow-hidden" tabIndex={-1}>
+          <Testimonials.Content />
+          <span className="pointer-events-none absolute inset-x-0 bottom-0 flex justify-center bg-gradient-to-t from-white pb-8 pt-32 dark:from-slate-950" />
+        </section>
+        <p className="group mt-4  flex flex-col items-center py-2 text-sm font-bold text-slate-900 transition duration-300  dark:text-slate-200  sm:text-lg lg:mt-10 lg:text-xl ">
+          <Link href="/testimonials">Read more...</Link>
+          <span className="block h-0.5 w-0 bg-sky-600 transition-all duration-500 group-hover:w-[84px]" />
+        </p>
       </div>
     </section>
   )
