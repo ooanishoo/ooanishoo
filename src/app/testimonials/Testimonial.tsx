@@ -2,6 +2,7 @@ import { LINKEDIN_RECOMMENDATIONS_URL } from '@/constants'
 import { ITestimonial } from '@/types'
 import Image from 'next/image'
 import React from 'react'
+import { FaUser } from 'react-icons/fa'
 
 interface TestimonialProps {
   testimonial: ITestimonial
@@ -25,23 +26,12 @@ const Testimonial = ({ testimonial }: TestimonialProps) => {
             height={56}
           />
         ) : (
-          <div className="relative h-14 w-14 overflow-hidden rounded-full bg-gray-100 dark:bg-gray-600">
-            <svg
-              className="h-14 w-14 text-gray-400"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
+          <div className="relative flex h-14 w-14 items-center justify-center overflow-hidden rounded-full bg-gray-200 dark:bg-gray-600">
+            <FaUser size={32} className="text-gray-400 dark:text-slate-800" />
           </div>
         )}
         <div className="flex-auto">
-          <div className="text-base font-semibold text-slate-900 dark:text-slate-300">
+          <div className="text-base font-semibold text-slate-800 dark:text-slate-300">
             <a href={linkedInUrl} target="_blank">
               {name}
             </a>
