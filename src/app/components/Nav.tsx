@@ -62,7 +62,7 @@ export const Nav = () => {
     <div
       className={clsx(
         'fixed left-0 right-0 top-0 z-10 mx-auto  w-full bg-white dark:bg-gray-950',
-        isNavOpen && 'h-screen',
+        isNavOpen && 'h-screen md:h-auto lg:h-auto xl:h-auto',
         'font-semibold lg:container md:absolute'
       )}
     >
