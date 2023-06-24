@@ -3,7 +3,7 @@ import clsx from 'clsx'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { BiMenuAltRight } from 'react-icons/bi'
 import { RxCross2 } from 'react-icons/rx'
 import { LogoIcon } from './LogoIcon'
@@ -48,6 +48,15 @@ export const Nav = () => {
 
   const handleOnClick = () => setIsNavOpen(!isNavOpen)
   const pathname = usePathname()
+
+  useEffect(() => {
+    const handleResize = () => window.innerWidth >= 768 && setIsNavOpen(false)
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
 
   return (
     <div
