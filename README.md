@@ -47,8 +47,7 @@ Get in touch! Say Hello 😄
     <img height="30" src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" alt="Twitter">
   </a>
   <a href="https://www.polywork.com/ooanishoo" target="_blank">
-    <img height="30" src="https://github.com/ooanishoo/ooanishoo/assets/9260
-  574/a80c561d-2745-4a6e-be79-bf8931e1ef7a" alt="Polywork"></a>
+    <img height="30" src="https://user-images.githubusercontent.com/9260574/248451446-a80c561d-2745-4a6e-be79-bf8931e1ef7a.svg" alt="Polywork"></a>
 </p>
 
 ## Support Me
