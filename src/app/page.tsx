@@ -4,6 +4,7 @@ import profilePic from '../../public/anish.jpg'
 import deskPic from '../../public/desk.jpeg'
 import Link from 'next/link'
 import { BarGraph } from './components/BarGraph'
+import ReactTypingEffect from 'react-typing-effect'
 
 export default function Home() {
   return (
@@ -16,10 +17,18 @@ export default function Home() {
         />
         <div className="flex-auto">
           <h2 className="mb-10 pt-2 text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:text-4xl">{`Hi, I'm Anish. Nice to meet you!`}</h2>
-          <p className="mt-6 text-sm text-gray-500 dark:text-slate-500 sm:mt-10 sm:text-lg sm:leading-8  md:leading-9 lg:text-2xl lg:leading-10 xl:max-w-3xl xl:text-4xl xl:leading-normal">
-            {`I'm a Software Engineer based in Melbourne. I love to design and write clean codes. I'm passionate about building useable products that solve real customer problems.`}
+          <ReactTypingEffect
+            className="text-2xl font-extrabold text-sky-500"
+            typingDelay={200}
+            speed={40}
+            eraseSpeed={40}
+            eraseDelay={1500}
+            text={[`Software Engineer`, `Mentor`, `Musician`]}
+          />
+          <p className="mt-4 text-sm text-gray-500 dark:text-slate-500 sm:mt-10 sm:text-lg sm:leading-8  md:leading-9 lg:text-2xl lg:leading-10 xl:max-w-3xl xl:text-4xl xl:leading-normal">
+            {`I love to design and build digital products that solve customer problems. I bring a unique blend of creativity and technical expertise to deliver user focused digital experiences.`}
           </p>
-          <p className="group mt-6 py-2 text-sm font-bold text-slate-900 transition duration-300  dark:text-slate-200  sm:text-lg lg:mt-10 lg:text-xl">
+          <p className="group mt-4 py-2 text-sm font-bold text-slate-900 transition duration-300  dark:text-slate-200  sm:text-lg lg:mt-10 lg:text-xl">
             <Link href="/about">Get to know me</Link>
             <span className="block h-0.5 max-w-0 bg-sky-600 transition-all duration-500 group-hover:max-w-[84px]" />
           </p>
@@ -30,10 +39,10 @@ export default function Home() {
         <h2 className="mb-10 pt-2 text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:mt-16 lg:text-4xl">
           How do I spend my time?
         </h2>
-        <p className="mt-6 text-sm text-gray-500 dark:text-slate-500 sm:mt-10 sm:text-lg   sm:leading-8 md:leading-9  lg:text-2xl  lg:leading-10 xl:text-4xl xl:leading-normal">
+        <p className="mt-4 text-sm text-gray-500 dark:text-slate-500 sm:mt-10 sm:text-lg   sm:leading-8 md:leading-9  lg:text-2xl  lg:leading-10 xl:text-4xl xl:leading-normal">
           {`Here is a quick overview of what I'm currently up to these days.`}
         </p>
-        <p className="group mt-6 py-2 text-sm font-bold text-slate-900 transition duration-300  dark:text-slate-200  sm:text-lg lg:mt-10 lg:text-xl ">
+        <p className="group mt-4 py-2 text-sm font-bold text-slate-900 transition duration-300  dark:text-slate-200  sm:text-lg lg:mt-10 lg:text-xl ">
           <Link href="/about">See a day in my life</Link>
           <span className="block h-0.5 max-w-0 bg-sky-600 transition-all duration-500 group-hover:max-w-[84px]" />
         </p>
@@ -43,11 +52,11 @@ export default function Home() {
           <h2 className="mb-10 pt-2 text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:text-4xl">
             Curious to checkout my toolbox?
           </h2>
-          <p className="mb-8 mt-6 text-sm text-gray-500  dark:text-slate-500 sm:text-lg sm:leading-8 md:leading-9  lg:text-2xl  lg:leading-10 xl:text-3xl xl:leading-normal">
+          <p className="mb-8 mt-4 text-sm text-gray-500  dark:text-slate-500 sm:text-lg sm:leading-8 md:leading-9  lg:text-2xl  lg:leading-10 xl:text-3xl xl:leading-normal">
             {` I maintain an up-to-date "uses" page that lists all the things I
             use.`}
           </p>
-          <p className="group mt-6 py-2 text-sm font-bold text-slate-900 transition duration-300  dark:text-slate-200  sm:text-lg lg:mt-10 lg:text-xl">
+          <p className="group mt-4 py-2 text-sm font-bold text-slate-900 transition duration-300  dark:text-slate-200  sm:text-lg lg:mt-10 lg:text-xl">
             <Link href="/uses">View my toolbox</Link>
             <span className="block h-0.5 max-w-0 bg-sky-600 transition-all duration-500 group-hover:max-w-[84px]" />
           </p>
