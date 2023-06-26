@@ -23,13 +23,15 @@ export default function RootLayout({
         className={`tracking-wider ${poppins.className} mx-auto  text-slate-500 lg:container dark:bg-gray-950 dark:text-slate-400`}
       >
         <Providers>
-          <header>
-            <Nav />
-          </header>
-          <main className="mx-auto mt-24 min-h-[60vh] px-4 lg:container sm:mt-28 sm:px-6  lg:mt-32 lg:px-8 xl:pt-14">
-            {children}
-          </main>
-          <Footer />
+          <div className="grid min-h-screen grid-rows-[auto,1fr,auto]">
+            <header>
+              <Nav />
+            </header>
+            <main className="mx-auto mt-24  px-4 lg:container sm:mt-28 sm:px-6  lg:mt-32 lg:px-8 xl:pt-14">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </Providers>
       </body>
     </html>
