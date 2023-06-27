@@ -58,11 +58,15 @@ export const Nav = () => {
     }
   }, [])
 
+  useEffect(() => {
+    isNavOpen && setIsNavOpen(!isNavOpen)
+  }, [pathname])
+
   return (
     <div
       className={clsx(
         'fixed left-0 right-0 top-0 z-10 mx-auto  w-full bg-white dark:bg-gray-950',
-        isNavOpen && 'min-h-screen md:h-auto lg:h-auto xl:h-auto',
+        isNavOpen && 'h-screen md:h-auto lg:h-auto xl:h-auto',
         'font-semibold lg:container md:absolute'
       )}
     >
@@ -91,9 +95,7 @@ export const Nav = () => {
                   nav.link === '/' && 'md:hidden'
                 )}
               >
-                <Link href={nav.link} onClick={handleOnClick}>
-                  {nav.title}
-                </Link>
+                <Link href={nav.link}>{nav.title}</Link>
                 <span
                   className={clsx(
                     'h-0.5 max-w-0 bg-sky-600 transition-all duration-500 group-hover:max-w-[40px] md:block',
