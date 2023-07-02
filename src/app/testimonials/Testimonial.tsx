@@ -45,7 +45,7 @@ const Testimonial = ({ testimonial }: TestimonialProps) => {
       </figcaption>
       <blockquote className="mt-6 text-slate-700 dark:text-slate-300">
         <a href={LINKEDIN_RECOMMENDATIONS_URL} target="_blank">
-          <p>{`"${feedback}"`}</p>
+          <p className="before:content-['“'] after:content-['”']">{feedback}</p>
         </a>
       </blockquote>
     </figure>
