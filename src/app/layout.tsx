@@ -13,7 +13,10 @@ export const metadata = {
   openGraph: {
     images: '/opengraph-image.png',
   },
+  siteName: 'Anish Maharjan',
   metadataBase: new URL('https://anish-dev.com'),
+  locale: 'en_US',
+  type: 'website',
 }
 
 export default function RootLayout({
