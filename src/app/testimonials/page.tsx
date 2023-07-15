@@ -1,5 +1,3 @@
-import { ITestimonial } from '@/types'
-import Image from 'next/image'
 import Testimonial from './Testimonial'
 import { testimonials } from './testimonials'
 
@@ -20,13 +18,13 @@ export default function Testimonials() {
 
 const TestimonialsContent = () => {
   return (
-    <div className="grid grid-cols-1 gap-8 text-sm  lg:grid-cols-2 xl:grid-cols-3">
+    <div className="grid grid-cols-1 gap-8 text-sm lg:grid-cols-3">
       {testimonials.map((column, i) => (
         <ul
           key={i}
           className={`space-y-8 
-            ${i === 1 && 'hidden sm:block'}
-            ${i === 2 && 'hidden lg:block'}`}
+            ${i === 1 && 'sm:block'}
+            ${i === 2 && 'lg:block'}`}
         >
           {column.map((testimonial, index) => (
             <li key={index} className="text-sm leading-6">

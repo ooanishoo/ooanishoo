@@ -1,4 +1,4 @@
-type Status = 'VISIBLE' | 'HIDDEN' | 'PENDING'
+type Status = 'VISIBLE' | 'HIDDEN'
 type Relationship = 'COLLEAGUE' | 'MENTEE'
 export interface ITestimonial {
   author: IAuthor

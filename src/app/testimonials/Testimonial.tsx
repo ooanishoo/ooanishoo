@@ -38,7 +38,7 @@ const Testimonial = ({ testimonial }: TestimonialProps) => {
           </div>
           <div className="mt-0.5">
             <a href={LINKEDIN_RECOMMENDATIONS_URL}>
-              {title} at {company}
+              {title} {company && `at ${company}`}
             </a>
           </div>
         </div>
