@@ -1,15 +1,7 @@
 import { ITestimonial } from '@/types'
+import { generateTestimonials } from './utils'
 
-const shuffleArray = (array: ITestimonial[]) => {
-  const shuffledArray = [...array]
-  for (let i = shuffledArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1))
-    ;[shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]]
-  }
-
-  return shuffledArray
-}
-const linkedInTestimonials: ITestimonial[] = [
+export const linkedInTestimonials: ITestimonial[] = [
   {
     author: {
       avatar: require('@/img/avatars/samuel-levens.jpeg').default.src,
@@ -427,18 +419,5 @@ const linkedInTestimonials: ITestimonial[] = [
     relationship: 'COLLEAGUE',
   },
 ]
-
-const generateTestimonials = (
-  testimonials: ITestimonial[]
-): ITestimonial[][] => {
-  const total = Math.floor(testimonials.length)
-  const endIndex = total / 3
-
-  return [
-    shuffleArray([...linkedInTestimonials.slice(0, endIndex)]),
-    shuffleArray([...linkedInTestimonials.slice(endIndex, endIndex * 2)]),
-    shuffleArray([...linkedInTestimonials.slice(endIndex * 2)]),
-  ]
-}
 
 export const testimonials = generateTestimonials(linkedInTestimonials)
