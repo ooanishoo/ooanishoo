@@ -1,3 +1,5 @@
+'use client'
+
 export const LogoIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     height="3em"

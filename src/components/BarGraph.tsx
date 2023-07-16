@@ -1,3 +1,4 @@
+'use client'
 import {
   Bar,
   BarChart,
@@ -91,5 +92,3 @@ export const BarGraph = () => {
     </ResponsiveContainer>
   )
 }
-
-export default BarChart

@@ -1,3 +1,5 @@
+'use client'
+
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { LuMoonStar, LuSun } from 'react-icons/lu'
@@ -6,13 +8,15 @@ interface ToggleThemeButtonProps {
   size?: number
 }
 
-const ToggleThemeButton = ({ size = 24 }: ToggleThemeButtonProps) => {
+export const ToggleThemeButton = ({ size = 24 }: ToggleThemeButtonProps) => {
   const { theme, setTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => setMounted(true), [])
-  if (!mounted)
+
+  if (!mounted) {
     return <LuSun className="animate-spin text-slate-400" size={24} />
+  }
 
   const handleOnClick = () => setTheme(theme === 'dark' ? 'light' : 'dark')
   const label = `Switch to ${theme === 'light' ? 'dark' : 'light'} mode`
@@ -28,5 +32,3 @@ const ToggleThemeButton = ({ size = 24 }: ToggleThemeButtonProps) => {
     </button>
   )
 }
-
-export default ToggleThemeButton

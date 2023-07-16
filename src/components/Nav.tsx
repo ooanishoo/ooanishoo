@@ -1,4 +1,5 @@
 'use client'
+
 import clsx from 'clsx'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
@@ -6,13 +7,14 @@ import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import { BiMenuAltRight } from 'react-icons/bi'
 import { RxCross2 } from 'react-icons/rx'
-import { LogoIcon } from './LogoIcon'
-import ToogleThemeButton from './ToggleThemeButton'
+import { LogoIcon } from '@/components/LogoIcon'
+import { ToggleThemeButton } from '@/components/ToggleThemeButton'
 
 interface INavigation {
   title: string
   link: string
 }
+
 const NAVIGATIONS: INavigation[] = [
   {
     title: 'home',
@@ -115,7 +117,7 @@ export const Nav = () => {
             </li>
           </ul>
           <div className=" ml-6 hidden border-l border-solid border-slate-400 pl-6 dark:border-slate-600 md:block ">
-            <ToogleThemeButton />
+            <ToggleThemeButton />
           </div>
         </div>
       </nav>
