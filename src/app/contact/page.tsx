@@ -1,5 +1,4 @@
-'use client'
-import { renderSocialLinks } from '../components/Footer'
+import { SocialLinks } from '@/components/SocialLinks'
 
 export default function Contact() {
   return (
@@ -20,7 +19,7 @@ export default function Contact() {
         hello!
       </p>
       <div className="flex space-x-6 text-slate-400 dark:text-slate-500">
-        {renderSocialLinks()}
+        <SocialLinks />
       </div>
     </div>
   )

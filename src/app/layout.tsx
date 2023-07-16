@@ -1,11 +1,10 @@
-import { Nav } from './components/Nav'
 import './globals.css'
-import { Poppins, Inter } from 'next/font/google'
-import Providers from './components/Providers'
-import { Footer } from './components/Footer'
+import { Nav } from '@/components/Nav'
+import { Providers } from '@/components/Providers'
+import { Footer } from '@/components/Footer'
+import { Poppins } from 'next/font/google'
 
 const poppins = Poppins({ subsets: ['latin'], weight: '300' })
-const inter = Inter({ subsets: ['latin'], weight: '300' })
 
 export const metadata = {
   title: 'Anish Maharjan',

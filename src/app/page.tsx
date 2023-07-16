@@ -1,10 +1,9 @@
-'use client'
+import { BarGraph } from '@/components/BarGraph'
+import { Typewritter } from '@/components/Typewritter'
 import Image from 'next/image'
 import Link from 'next/link'
-import ReactTypingEffect from 'react-typing-effect'
 import profilePic from '../../public/anish.jpg'
 import deskPic from '../../public/desk.jpeg'
-import { BarGraph } from './components/BarGraph'
 import Testimonials from './testimonials/page'
 
 export default function Home() {
@@ -18,14 +17,7 @@ export default function Home() {
         />
         <div className="flex-auto">
           <h2 className="mb-10 pt-2 text-2xl font-extrabold text-black dark:text-white sm:text-3xl lg:text-4xl">{`Hi, I'm Anish. Nice to meet you!`}</h2>
-          <ReactTypingEffect
-            className="text-2xl font-extrabold text-sky-500"
-            typingDelay={200}
-            speed={40}
-            eraseSpeed={40}
-            eraseDelay={1500}
-            text={[`Software Engineer`, `Mentor`, `Musician`]}
-          />
+          <Typewritter />
           <p className="mt-4 text-sm text-gray-500 dark:text-slate-500 sm:mt-10 sm:text-lg sm:leading-8  md:leading-9 lg:text-2xl lg:leading-10 xl:max-w-3xl xl:text-4xl xl:leading-normal">
             {`I love to design and build digital products that solve customer problems. I bring a unique blend of creativity and technical expertise to deliver user focused digital experiences.`}
           </p>

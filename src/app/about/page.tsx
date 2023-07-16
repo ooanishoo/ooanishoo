@@ -1,8 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
-'use client'
-import Image, { StaticImageData } from 'next/image'
-import { BarGraph } from '../components/BarGraph'
-import deskPic from '../../../public/desk.jpeg'
+import { BarGraph } from '@/components/BarGraph'
 
 export default function About() {
   return (
@@ -50,7 +46,7 @@ export default function About() {
             </a>
             . I initially joined the admin center team developing and
             maintaining a micro-frontend platform called Admin Center with tech
-            stacks such as Rails, React, Typescript, and Redux. Currently, I'm
+            stacks such as Rails, React, Typescript, and Redux. Currently, I am
             working on the team and license management domain delivering an
             easy-to-use team management experience that scales with customers
             and grows the business. I am also championing accessibility in the
