@@ -55,7 +55,7 @@ These are some of the desktop apps and Chrome extensions that I use daily.
 
 ## Podcasts and books
 
-- <a href="https://open.spotify.com/show/1KBO1tSnm0XRlEILmqt7Em?si=f6b3a7f7f72a46ac" target="_blank" ara-label="Ladybug Podcast">Ladybug Podcast</a>:
+- <a href="https://open.spotify.com/show/1KBO1tSnm0XRlEILmqt7Em?si=f6b3a7f7f72a46ac" target="_blank" aria-label="Ladybug Podcast">Ladybug Podcast</a>:
   I recently discovered this podcast. Four seasoned software developers working in different sectors share their experiences and advice on different topics related to software engineering. It's great, check it out!
 - <a href="https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk" target="_blank" aria-label="The Joe Rogan Experience">The Joe Rogan Experience</a>:
   I'm a big Joe Rogan fan. I love the different perspectives that he brings to the table. From comedians to scientists, he has a wide range of guests on his show.
@@ -74,11 +74,11 @@ These are some of the desktop apps and Chrome extensions that I use daily.
 
 ## Newsletters
 
-- <a href="https://jamesclear.com/3-2-1" target="_blank" ara-label="The 3-2-1 Newsletter">The 3-2-1 Newsletter</a>:
+- <a href="https://jamesclear.com/3-2-1" target="_blank" aria-label="The 3-2-1 Newsletter">The 3-2-1 Newsletter</a>:
   I love this newsletter by James Clear. It's a weekly newsletter that has 3 ideas from him, 2 quotes from others, and 1 question for you to ponder.
-- <a href="https://www.densediscovery.com/archive/" target="_blank" ara-label="Dense Discovery">Dense Discovery</a>:
+- <a href="https://www.densediscovery.com/archive/" target="_blank" aria-label="Dense Discovery">Dense Discovery</a>:
   A weekly newsletter that provides a curated collection of useful apps, tools, websites, books, accessories, art and design projects, as well as thought-provoking things.
-- <a href="https://aliabdaal.com/newsletter/" target="_blank" ara-label="Ali Abdaal">Ali Abdaal</a>:
+- <a href="https://aliabdaal.com/newsletter/" target="_blank" aria-label="Ali Abdaal">Ali Abdaal</a>:
   Ali sends out a weekly newsletter with his thoughts on productivity, books, cool things he found on the internet, and a summary of his latest YouTube videos.
-- <a href="https://kentcdodds.com/blog" target="_blank" ara-label="Kent C. Dodds">Kent C. Dodds</a>:
+- <a href="https://kentcdodds.com/blog" target="_blank" aria-label="Kent C. Dodds">Kent C. Dodds</a>:
   Kent has really good blogs. Subscribing to his newsletter allows me to get notified when he publishes a new blog or goes through some of his classic blogs.
