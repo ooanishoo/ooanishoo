@@ -1,5 +1,5 @@
 import Markdown from 'markdown-to-jsx'
-import { getMarkdownContent } from '../helpers'
+import { getMarkdownContent } from './utils'
 
 export default function ToolBox() {
   const content = getMarkdownContent('docs/uses.md')
