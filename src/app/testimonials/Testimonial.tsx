@@ -1,7 +1,6 @@
 import { LINKEDIN_RECOMMENDATIONS_URL } from '@/constants'
 import { ITestimonial } from '@/types'
 import Image from 'next/image'
-import React from 'react'
 import { FaUser } from 'react-icons/fa'
 
 interface TestimonialProps {
