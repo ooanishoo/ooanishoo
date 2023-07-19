@@ -1,7 +1,7 @@
 'use client'
 
 import { ToggleThemeButton } from '@/components/ToggleThemeButton'
-import { SocialLinks } from './SocialLinks'
+import { SocialLinks } from '@/components/SocialLinks'
 
 const FooterContent = () => (
   <div className="flex flex-col items-center justify-between border-t border-solid border-slate-200 pb-28 pt-8 text-slate-500 dark:border-slate-200/5 sm:flex-row">
