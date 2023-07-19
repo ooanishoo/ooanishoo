@@ -1,5 +1,11 @@
 'use client'
 
+import {
+  GITHUB_URL,
+  LINKEDIN_URL,
+  POLYWORK_URL,
+  TWITTER_URL,
+} from '@/constants'
 import { IconType } from 'react-icons'
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { SiPolywork } from 'react-icons/si'
@@ -14,26 +20,25 @@ export const SocialLinks = () => {
   const socialLinks: SocialLink[] = [
     {
       name: 'Github',
-      url: 'https://github.com/ooanishoo',
+      url: GITHUB_URL,
       icon: FaGithub,
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/ooanishoo/',
+      url: LINKEDIN_URL,
       icon: FaLinkedinIn,
     },
     {
       name: 'Polywork',
-      url: 'https://www.polywork.com/ooanishoo',
+      url: POLYWORK_URL,
       icon: SiPolywork,
     },
     {
       name: 'Twitter',
-      url: 'https://www.twitter.com/ooanishoo/',
+      url: TWITTER_URL,
       icon: FaTwitter,
     },
   ]
-
   return (
     <>
       {socialLinks.map((socialLink, index) => (
@@ -41,6 +46,7 @@ export const SocialLinks = () => {
           <socialLink.icon
             title={socialLink.name}
             size={24}
+            aria-label={socialLink.name}
             className=" hover:text-slate-500 dark:hover:text-slate-400"
           />
         </a>
