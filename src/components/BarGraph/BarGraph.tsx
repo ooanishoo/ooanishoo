@@ -8,47 +8,42 @@ import {
   ResponsiveContainer,
   XAxis,
 } from 'recharts'
-
-interface BarGraph {
-  color: string
-  name: string
-  value: number
-}
-
-const data: BarGraph[] = [
-  {
-    color: '#3B82F6',
-    name: 'Coding',
-    value: 75,
-  },
-  {
-    color: '#9ecae1',
-    name: 'Mentoring',
-    value: 50,
-  },
-  {
-    color: '#deebf7',
-    name: 'Lifting',
-    value: 30,
-  },
-  {
-    color: '#3182bd',
-    name: 'Guitar',
-    value: 40,
-  },
-  {
-    color: '#9ecae1',
-    name: 'Keyboard',
-    value: 60,
-  },
-  {
-    color: '#deebf7',
-    name: 'Renovations/DIY',
-    value: 50,
-  },
-]
+import { IBarGraph } from './types'
 
 export const BarGraph = () => {
+  const data: IBarGraph[] = [
+    {
+      color: '#3B82F6',
+      name: 'Coding',
+      value: 75,
+    },
+    {
+      color: '#9ecae1',
+      name: 'Mentoring',
+      value: 50,
+    },
+    {
+      color: '#deebf7',
+      name: 'Lifting',
+      value: 30,
+    },
+    {
+      color: '#3182bd',
+      name: 'Guitar',
+      value: 40,
+    },
+    {
+      color: '#9ecae1',
+      name: 'Keyboard',
+      value: 60,
+    },
+    {
+      color: '#deebf7',
+      name: 'DIY projects',
+      value: 50,
+    },
+  ]
+
   return (
     <ResponsiveContainer
       width="99%"
@@ -75,6 +70,7 @@ export const BarGraph = () => {
           animationBegin={100}
           animationDuration={1600}
           type="monotone"
+          role="graphics-symbol"
         >
           <LabelList
             dataKey="name"
