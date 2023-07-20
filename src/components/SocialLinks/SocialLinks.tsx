@@ -6,18 +6,12 @@ import {
   POLYWORK_URL,
   TWITTER_URL,
 } from '@/constants'
-import { IconType } from 'react-icons'
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { SiPolywork } from 'react-icons/si'
-
-interface SocialLink {
-  name: string
-  url: string
-  icon: IconType
-}
+import { ISocialLink } from './types'
 
 export const SocialLinks = () => {
-  const socialLinks: SocialLink[] = [
+  const socialLinks: ISocialLink[] = [
     {
       name: 'Github',
       url: GITHUB_URL,
