@@ -15,7 +15,14 @@ export const ToggleThemeButton = ({ size = 24 }: ToggleThemeButtonProps) => {
   useEffect(() => setMounted(true), [])
 
   if (!mounted) {
-    return <LuSun className="animate-spin text-slate-400" size={24} />
+    return (
+      <LuSun
+        title="Sun icon"
+        aria-label="Sun icon"
+        className="animate-spin text-slate-400"
+        size={24}
+      />
+    )
   }
 
   const handleOnClick = () => setTheme(theme === 'dark' ? 'light' : 'dark')
@@ -28,7 +35,11 @@ export const ToggleThemeButton = ({ size = 24 }: ToggleThemeButtonProps) => {
       aria-label={label}
       className="delay-350 text-slate-400 transition  duration-500  ease-in-out    hover:text-sky-500  dark:text-slate-600 dark:hover:text-sky-400"
     >
-      {theme === 'light' ? <LuSun size={size} /> : <LuMoonStar size={size} />}
+      {theme === 'light' ? (
+        <LuSun role="img" size={size} aria-label="Sun icon" />
+      ) : (
+        <LuMoonStar role="img" size={size} aria-label="Moon icon" />
+      )}
     </button>
   )
 }
