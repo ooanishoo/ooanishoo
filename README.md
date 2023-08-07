@@ -2,7 +2,7 @@
 
 I'm a Software Engineer with a demonstrated history of working in backend and frontend technologies. I love to design and write clean codes. I'm passionate about building useable products that solve real customer problems.
 
-## Developer, Designer & Mentor
+## Senior Software Engineer & Mentor
 
 - 🇦🇺 I'm based in Melbourne, Australia
 - 🚀 I'm currently working at [Zendesk](https://www.zendesk.com/au/)
