@@ -1,8 +1,12 @@
 # Hi, I'm Anish. Nice to meet you! <img src="https://raw.githubusercontent.com/ooanishoo/ooanishoo/main/public/wave.gif" width="30px">
 
-I'm a Software Engineer with a demonstrated history of working in backend and frontend technologies. I love to design and write clean codes. I'm passionate about building useable products that solve real customer problems.
+<img  src="./public/contributions.svg" alt="contributions" /></a>
 
-## Developer, Designer & Mentor
+I'm a Software Engineer with a demonstrated history of working in backend and frontend technologies. I love to design and build digital products that solve customer problems.
+
+I bring a unique blend of creativity and technical expertise to deliver user-focused digital experiences.
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&duration=3000&pause=200&color=F7DF1E&width=435&lines=Senior+Software+Engineer;Mentor)](https://git.io/typing-svg)
 
 - 🇦🇺 I'm based in Melbourne, Australia
 - 🚀 I'm currently working at [Zendesk](https://www.zendesk.com/au/)
@@ -37,7 +41,7 @@ I'm a Software Engineer with a demonstrated history of working in backend and fr
 
 ## Want to create something together?
 
-Get in touch! Say Hello 😄
+Get in touch! Say Hello 👋🏻
 
 <p align="left">
   <a href="https://www.linkedin.com/in/ooanishoo" target="_blank">
@@ -52,6 +56,8 @@ Get in touch! Say Hello 😄
 
 ## Support Me
 
-If you like my work, you can support me by buying me a coffee. I would really appreciate it!
+![Anish's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ooanishoo&theme=github-compact)
+
+☕️ If you like my work, you can support me by buying me a coffee. I would really appreciate it!
 
 <a href="https://www.buymeacoffee.com/ooanishoo"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
