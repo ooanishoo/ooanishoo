@@ -11,7 +11,7 @@ I bring a unique blend of creativity and technical expertise to deliver user-foc
 - 🇦🇺 I'm based in Melbourne, Australia
 - 🚀 I'm currently working at [Zendesk](https://www.zendesk.com/au/)
 - 💻 Checkout my new portfolio [anish-dev.com](http://anish-dev.com)
-- 📧 You can reach out to me at [anish.maharjan12341@gmail.com](mailto:anish.maharjan12341@gmail.com)
+- 📧 You can reach out to me at [hireme.anish@gmail.com](mailto:hireme.anish@gmail.com)
 - 🤝 I'm open to collaborating on exciting projects as a front-end or full-stack engineer.
 
 ## Stack I love to work with
