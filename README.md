@@ -6,7 +6,7 @@ I'm a Software Engineer with a demonstrated history of working in backend and fr
 
 I bring a unique blend of creativity and technical expertise to deliver user-focused digital experiences.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&duration=3000&pause=200&color=F7DF1E&width=435&lines=Senior+Software+Engineer;Mentor)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&duration=3000&pause=200&color=FAFF70&width=435&lines=Senior+Software+Engineer;Mentor)](https://git.io/typing-svg)
 
 - 🇦🇺 I'm based in Melbourne, Australia
 - 🚀 I'm currently working at [Zendesk](https://www.zendesk.com/au/)
